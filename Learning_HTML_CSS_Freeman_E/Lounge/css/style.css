@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+
+h2 {
+  color: gray;
+}
+
+p {
+  color: maroon;
+}
