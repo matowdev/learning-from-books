@@ -19,15 +19,11 @@ h2 {
 
 #guarantee {
   margin: 30px;
-  margin-right: 250px;
-  border: 2px dashed white;
+  border: 1px dashed white;
   padding: 25px;
-  padding-left: 80px;
-  font-family: Georgia, Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.9em;
+  font-style: italic;
   color: #444;
   background-color: #a7cece;
-  background-image: url("../images/background.gif");
-  background-repeat: no-repeat;
-  background-position: top left;
 }
