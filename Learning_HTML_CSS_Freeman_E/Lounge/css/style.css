@@ -14,3 +14,23 @@ h2 {
 p {
   color: maroon;
 }
+
+em {
+  font-family: serif;
+}
+
+.green-tea {
+  color: lightgreen;
+}
+
+.raspberry-ice {
+  color: lightskyblue;
+}
+
+.blueberry-bliss {
+  color: violet;
+}
+
+.cranberry-antioxidant {
+  color: lightcoral;
+}
