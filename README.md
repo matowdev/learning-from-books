@@ -6,6 +6,7 @@
 
 - [proj. Lounge](https://s2kdev.github.io/Learning_Programming_from_Books/Learning_HTML_CSS_Freeman_E/Lounge/lounge.html)
 - [proj. MyPod](https://s2kdev.github.io/Learning_Programming_from_Books/Learning_HTML_CSS_Freeman_E/MyPod)
+- [proj. Journal](https://s2kdev.github.io/Learning_Programming_from_Books/Learning_HTML_CSS_Freeman_E/Journal/journal.html)
 - [**proj. Starbuzz**](https://s2kdev.github.io/Learning_Programming_from_Books/Learning_HTML_CSS_Freeman_E/Starbuzz)
 
 ![Page/book](Learning_HTML_CSS_Freeman_E/Different_Tasks/images/page-img.jpg)
