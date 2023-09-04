@@ -1,7 +1,7 @@
 body {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: small;
   line-height: 1.6em;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -23,11 +23,66 @@ h2 {
   border: 2px dashed white;
   padding: 25px;
   padding-left: 80px;
-  font-family: Georgia, Times, serif;
   line-height: 1.9em;
+  font-family: Georgia, Times, serif;
   color: #444;
-  background-color: #a7cece;
-  background-image: url("../images/background.gif");
-  background-repeat: no-repeat;
-  background-position: top left;
+  background: #a7cece url("../images/background.gif") no-repeat top left;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+#elixirs {
+  margin-left: 20px;
+  border: 1px solid #007e7e;
+  padding: 0 20px 20px;
+  width: 200px;
+  line-height: 1.1;
+  text-align: center;
+  background: white url("../images/cocktail.gif") repeat-x;
+}
+
+#elixirs h2 {
+  color: black;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+}
+
+#elixirs a:link {
+  color: #007e7e;
+}
+
+#elixirs a:visited {
+  color: #333;
+}
+
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+.cd {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+#footer {
+  margin-top: 30px;
+  font-size: 70%;
+  line-height: normal;
+  text-align: center;
 }
