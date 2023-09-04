@@ -49,6 +49,10 @@ div#tableContainer {
   min-height: 700px;
 }
 
+div#tableContainer.blogContainer {
+  min-height: 735px;
+}
+
 div#tableRow {
   display: table-row;
 }
