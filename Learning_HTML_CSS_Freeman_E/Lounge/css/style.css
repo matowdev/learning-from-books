@@ -17,28 +17,11 @@ h2 {
   font-size: 130%;
 }
 
-#guarantee {
-  margin: 30px;
-  margin-right: 250px;
-  border: 2px dashed white;
-  padding: 25px;
-  padding-left: 80px;
-  line-height: 1.9em;
-  font-family: Georgia, Times, serif;
-  color: #444;
-  background: #a7cece url("../images/background.gif") no-repeat top left;
-}
-
-a:link {
-  color: green;
-}
-
-a:visited {
-  color: red;
-}
-
-a:hover {
-  color: orange;
+.page {
+  margin: 0 auto;
+  padding: 0 50px 20px;
+  max-width: 1200px;
+  min-height: 1170px;
 }
 
 #elixirs {
@@ -46,6 +29,7 @@ a:hover {
   border: 1px solid #007e7e;
   padding: 0 20px 20px;
   width: 200px;
+  float: right;
   line-height: 1.1;
   text-align: center;
   background: white url("../images/cocktail.gif") repeat-x;
@@ -70,6 +54,34 @@ a:hover {
 #elixirs a:hover {
   background: #f88396;
   color: #0d5353;
+}
+
+#guarantee {
+  margin: 30px;
+  margin-right: 250px;
+  border: 2px dashed white;
+  padding: 25px;
+  padding-left: 80px;
+  line-height: 1.9em;
+  font-family: Georgia, Times, serif;
+  color: #444;
+  background: #a7cece url("../images/background.gif") no-repeat top left;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+.music-list {
+  margin-bottom: 220px;
 }
 
 .cd {
