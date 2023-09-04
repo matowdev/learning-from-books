@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  min-width: 576px;
   font-size: small;
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #b5a789;
@@ -13,80 +14,6 @@ header.top {
 
 header.top img#headerSlogan {
   float: right;
-}
-
-div#tableContainer {
-  display: table;
-  border-spacing: 10px;
-}
-
-div#tableRow {
-  display: table-row;
-}
-
-section#drinks {
-  display: table-cell;
-  padding: 15px;
-  width: 20%;
-  vertical-align: top;
-  background-color: #efe5d0;
-}
-
-/* added section#blog for blog */
-section#main,
-section#blog {
-  display: table-cell;
-  padding: 15px;
-  font-size: 105%;
-  vertical-align: top;
-  background: #efe5d0 url("../images/background.gif") top left;
-}
-
-aside {
-  display: table-cell;
-  padding: 15px;
-  font-size: 105%;
-  vertical-align: top;
-  background: #efe5d0 url("../images/background.gif") bottom right;
-}
-
-footer {
-  margin: 0 10px 10px 10px;
-  padding: 15px;
-  font-size: 90%;
-  text-align: center;
-  color: #efe5d0;
-  background-color: #675c47;
-}
-
-h1 {
-  font-size: 120%;
-  color: #954b4b;
-}
-
-h2 {
-  font-size: 110%;
-}
-
-.slogan {
-  color: #954b4b;
-}
-
-.beanheading {
-  line-height: 1.8em;
-  text-align: center;
-}
-
-a:link {
-  border-bottom: thin dotted #b76666;
-  text-decoration: none;
-  color: #b76666;
-}
-
-a:visited {
-  border-bottom: thin dotted #675c47;
-  text-decoration: none;
-  color: #675c47;
 }
 
 nav {
@@ -110,13 +37,104 @@ nav ul li a:visited {
   border-bottom: none;
   font-weight: bold;
   color: #954b4b;
-
-  /*
-	text-shadow: 1px 1px 3px #e2c2c2;
-	text-transform: uppercase;
-*/
 }
 
 nav ul li.selected {
   background-color: #c8b99c;
+}
+
+div#tableContainer {
+  display: table;
+  border-spacing: 10px;
+  min-height: 700px;
+}
+
+div#tableRow {
+  display: table-row;
+}
+
+section#drinks {
+  display: table-cell;
+  padding: 15px;
+  width: 20%;
+  vertical-align: top;
+  background-color: #efe5d0;
+}
+
+h1 {
+  font-size: 120%;
+  color: #954b4b;
+}
+
+h2 {
+  font-size: 110%;
+}
+
+section#main,
+section#blog {
+  display: table-cell;
+  padding: 15px;
+  font-size: 105%;
+  vertical-align: top;
+  background: #efe5d0 url("../images/background.gif") top left;
+}
+
+aside {
+  position: relative;
+  display: table-cell;
+  padding: 15px;
+  font-size: 105%;
+  vertical-align: top;
+  background: #efe5d0 url("../images/background.gif") bottom right;
+}
+
+.beanheading {
+  line-height: 1.8em;
+  text-align: center;
+}
+
+.slogan {
+  color: #954b4b;
+}
+
+#award {
+  position: absolute;
+  top: 30px;
+  right: 12%;
+}
+
+a:link {
+  border-bottom: thin dotted #b76666;
+  text-decoration: none;
+  color: #b76666;
+}
+
+a:visited {
+  border-bottom: thin dotted #675c47;
+  text-decoration: none;
+  color: #675c47;
+}
+
+#coupon {
+  position: fixed;
+  top: 650px;
+  left: -90px;
+  overflow: clip;
+}
+
+#coupon img {
+  border: none;
+}
+
+#coupon а {
+  text-decoration: none;
+}
+
+footer {
+  margin: 0 10px 10px 10px;
+  padding: 15px;
+  font-size: 90%;
+  text-align: center;
+  color: #efe5d0;
+  background-color: #675c47;
 }
