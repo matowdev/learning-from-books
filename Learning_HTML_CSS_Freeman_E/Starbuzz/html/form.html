@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Starbuzz Bean Machine</title>
+  <link rel="stylesheet" href="../css/styledform.css">
+</head>
+
+<body>
+  <div class="title-wrap">
+    <h1>The Starbuzz Bean Machine</h1>
+    <h2>Fill out the form below and click "order now" to order</h2>
+  </div>
+
+  <form action="https://jsonplaceholder.typicode.com/users" method="post">
+    <p>Choose your beans:
+      <select name="beans">
+        <option value="House Blend">House Blend</option>
+        <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+        <option value="Guatemala">Organic Guatemala</option>
+        <option value="Kenya">Kenya</option>
+      </select>
+    </p>
+    <p>Type:<br>
+      <input type="radio" name="beantype" value="whole">
+      Whole bean<br>
+      <input type="radio" name="beantype" value="ground" checked>
+      Ground
+    </p>
+    <p>Number of bags:<input type="number" name="bags" min="1" max="10"></p>
+    <p>Must arrive by date: <input type="date" name="date"></p>
+    <p>Extras:<br>
+      <input type="checkbox" name="extras" value="giftwrap">
+      Gift wrap<br>
+      <input type="checkbox" name="extras" value="catalog" checked>
+      Include catalog with order
+    </p>
+    <p class="ship" role="form"><span>Ship to:</span><br>
+      Name:
+      <input type="text" name="name" value="" placeholder="Name" required autocomplete="off"><br>
+      Address:
+      <input type="text" name="address" value="" placeholder="Address" required autocomplete="off"><br>
+      City:
+      <input type="text" name="city" value="" placeholder="City" required autocomplete="off"><br>
+      State:
+      <input type="text" name="state" value="" placeholder="State" required autocomplete="off"><br>
+      Zip:
+      <input type="text" name="zip" value="" placeholder="Zip" required autocomplete="off"><br>
+      Phone:
+      <input type="tel" name="phone" value="" placeholder="Phone" required autocomplete="off"><br>
+    </p>
+    <p>Customer Comments:<br>
+      <textarea name="comments"></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Order Now">
+    </p>
+  </form>
+</body>
+
+</html>

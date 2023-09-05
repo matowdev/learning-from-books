@@ -1,0 +1,57 @@
+body {
+  margin: 0 auto;
+  min-width: 576px;
+  max-width: 1200px;
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #efe5d0 url("../images/background.gif") top left;
+}
+
+.title-wrap {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  display: table;
+  border: thin dotted #7e7e7e;
+  padding: 10px;
+  background-color: #e1ceb8;
+}
+
+form textarea {
+  width: 500px;
+  height: 200px;
+  resize: none;
+}
+
+div.tableRow {
+  display: table-row;
+}
+
+div.tableRow p {
+  display: table-cell;
+  padding: 3px;
+  vertical-align: top;
+}
+
+div.tableRow p:first-child {
+  text-align: right;
+}
+
+p.heading {
+  font-weight: bold;
+}
+
+.ship {
+  max-width: 240px;
+  text-align: end;
+}
+
+.ship span {
+  padding-right: 185px;
+}
+
+input::placeholder {
+  color: #e1ceb8;
+}
