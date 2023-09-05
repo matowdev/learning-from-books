@@ -26,6 +26,50 @@ h2 {
   font-size: 130%;
 }
 
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  /* border-spacing: 0; */
+  border-collapse: collapse;
+  caption-side: bottom;
+}
+
+td,
+th {
+  border: 1px dotted gray;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+th {
+  border-bottom: 1px solid black;
+  color: #c60;
+}
+
+.rowColor {
+  background-color: #fcba7a;
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+table table th {
+  color: lightcoral;
+}
+
+caption {
+  padding-top: 8px;
+  font-style: italic;
+}
+
 blockquote {
   font-style: italic;
+}
+
+li {
+  margin-left: 20px;
+  padding-top: 5px;
+  list-style-image: url("../img/backpack.gif");
 }
