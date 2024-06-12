@@ -4,10 +4,10 @@
 
 ### Head First: HTML and CSS (Elisabeth Robson and Eric Freeman)
 
-- [proj. Lounge](https://s2kdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Lounge/lounge.html)
-- [proj. MyPod](https://s2kdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/MyPod)
-- [proj. Journal](https://s2kdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Journal/journal.html)
-- [**proj. Starbuzz**](https://s2kdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Starbuzz)
+- [proj. Lounge](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Lounge/lounge.html)
+- [proj. MyPod](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/MyPod)
+- [proj. Journal](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Journal/journal.html)
+- [**proj. Starbuzz**](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Starbuzz)
 
 ![Page/book](Learning_HTML_CSS_Freeman_E/Different_Tasks/images/page-img.jpg)
 
