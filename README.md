@@ -6,10 +6,10 @@
 
 #### Projects (static pages):
 
-- [Lounge](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Lounge/lounge.html) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/Lounge)
-- [MyPod](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/MyPod) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/MyPod)
-- [Journal](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Journal/journal.html) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/Journal)
-- [Starbuzz](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Starbuzz) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/Starbuzz)
+- [**Lounge**](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Lounge/lounge.html) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/Lounge)
+- [**MyPod**](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/MyPod) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/MyPod)
+- [**Journal**](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Journal/journal.html) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/Journal)
+- [**Starbuzz**](https://matowdev.github.io/learning-from-books/Learning_HTML_CSS_Freeman_E/Starbuzz) [/]() [code](https://github.com/matowdev/learning-from-books/tree/main/Learning_HTML_CSS_Freeman_E/Starbuzz)
 
 ![Page/book](Learning_HTML_CSS_Freeman_E/Different_Tasks/images/page-img.jpg)
 
